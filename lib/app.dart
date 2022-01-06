@@ -21,7 +21,6 @@ class App extends StatefulWidget {
 
 class _AppState extends State<App> {
   final i18n = I18n.delegate;
-
   final AbstractRoutes routes = Routes.routes;
   final ThemeData _lightTheme = ThemeData.light();
   final ThemeData _darkTheme = ThemeData.dark();
