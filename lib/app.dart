@@ -26,6 +26,7 @@ class _AppState extends State<App> {
   final ThemeData _darkTheme = ThemeData.dark();
   final FirebaseAnalytics analytics = FirebaseAnalytics();
   Future _init() async {
+
     if (Platform.isAndroid)
       await PermissionHandler().requestPermissions([PermissionGroup.storage]);
     setLocaleInfo('zh', TimelineInfoCN());
