@@ -37,6 +37,7 @@ class _AppState extends State<App> {
   void initState() {
     I18n.onLocaleChanged = onLocaleChange;
     _init();
+
     super.initState();
   }
 
